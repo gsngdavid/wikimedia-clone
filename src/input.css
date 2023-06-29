@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .container {
+        @apply max-w-[66.25rem] mx-auto
+    }
+
+    .divider {
+        @apply w-full h-[1px]
+    }
+
+    .nav-link {
+        @apply font-medium text-sm py-2 px-[10px]  hover:text-primary hover:bg-light-blue
+    }
+    .link {
+        @apply text-primary hover:text-primary-dark hover:underline
+    }
+}
+
+@keyframes moving {
+    
+}
